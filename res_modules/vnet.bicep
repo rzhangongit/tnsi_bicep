@@ -7,7 +7,7 @@ param subnet1AddressPrefix string
 param subnet2AddressPrefix string
 
 
-resource virtualNetwork 'Microsoft.Network/virtualNetworks@2019-11-01' = {
+resource virtualNetwork 'Microsoft.Network/virtualNetworks@2019-04-01' = {
   name: virtualNetworkName
   location: location
   properties: {
