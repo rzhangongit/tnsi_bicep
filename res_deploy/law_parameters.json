@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "workspaces": {
+        "value": [
+          {
+            "name": "law-tnsi-dev-01",
+            "location": "eastus"       
+          },
+          {
+            "name": "law-tnsi-dev-02",
+            "location": "eastus"            
+          }
+        ]
+      },
+      "tags": {
+        "value": {
+          "environment": "dev",
+          "project": "tnsi_bicep"
+        }
+      }
+    }
+  }
