@@ -1,8 +1,7 @@
-# tnsi_bicep
-Evaluating Bicep
+# Project repository name: tnsi_bicep
+# Project purpose: evaluating Bicep
 
-# to create a Resource Group, run the following CLI
-
+# Example to create a Resource Group, run the following CLI
 az deployment sub create \
   --name resourceGroupName \
   --location eastus \
