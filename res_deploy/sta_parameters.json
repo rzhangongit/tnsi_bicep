@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "storageAccounts": {
+        "value": [
+          {
+            "name": "statnsidev01",
+            "location": "eastus",
+            "kind": "StorageV2",
+            "performance_tier": "Standard",
+            "Redundancy": "LRS"    
+          },
+          {
+            "name": "statnsidev02",
+            "location": "eastus",
+            "kind": "StorageV2",
+            "performance_tier": "Standard",
+            "redundancy": "LRS"           
+          }
+        ]
+      },
+      "tags": {
+        "value": {
+          "environment": "dev",
+          "project": "tnsi_bicep"
+        }
+      }
+    }
+  }
