@@ -7,7 +7,6 @@ var managementGroupIds = [for managementGroup in managementGroups: {
   id: resourceId('Microsoft.Management/managementGroups', managementGroup.name)
 }]
 
-
 resource newMG 'Microsoft.Management/managementGroups@2021-04-01' = [for managementGroup in managementGroups: {
   scope: tenant()
   name: managementGroup.name

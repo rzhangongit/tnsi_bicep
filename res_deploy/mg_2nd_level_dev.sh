@@ -4,4 +4,4 @@
 
 az deployment tenant create --confirm-with-what-if \   
     --template-file ../res_modules/management_group.bicep \
-    --parameters @mg_2nd_level_dev_paras.json 
+    --parameters @mg_2nd_level_dev_params.json 

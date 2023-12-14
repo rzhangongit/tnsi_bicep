@@ -7,15 +7,10 @@
           {
             "name": "mg-tnsi-eastus-dev-01",
             "_comment": "using the following parent MG ID will create new MGs underneath the Tenant Root Group",
-            "parent_mg_id": "a4831ef0-da02-4f94-a5d1-a1601056b004"            
+            "parent_mg_id": "a4831ef0-da02-4f94-a5d1-a1601056b004",
+            "location": "eastus"          
           }
         ]
-      },
-      "tags": {
-        "value": {
-          "environment": "dev",
-          "project": "tnsi_bicep"
-        }
       }
     }
   }
