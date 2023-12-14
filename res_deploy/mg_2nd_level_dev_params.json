@@ -7,6 +7,10 @@
           {
             "name": "mg-tnsi-eastus-dev-01",              
             "parent_mg_id": "/providers/Microsoft.Management/managementGroups/a4831ef0-da02-4f94-a5d1-a1601056b004"
+          },
+          {
+            "name": "mg-tnsi-eastus-dev-01",              
+            "parent_mg_id": "/providers/Microsoft.Management/managementGroups/a4831ef0-da02-4f94-a5d1-a1601056b004"
           }
         ]
       }

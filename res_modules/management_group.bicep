@@ -15,8 +15,8 @@ resource newMG 'Microsoft.Management/managementGroups@2021-04-01' = [for mgmtgro
       parent: {
         id: mgmtgroup.parent_mg_id
       }
-    }
-  }
+    }    
+  }  
 }]
 
 output managementGroupIds array = managementGroupIds
