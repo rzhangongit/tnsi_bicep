@@ -29,6 +29,11 @@ param secretsPermissions array = [
   'all'
 ]
 
+@description('Specifies the permissions to certificates in the vault. Valid values are: all, get, list, create, update, import, delete, backup, restore, recover, manage contacts, manage certificate authorities, get certificate authorities, list certificate authorities, set certificate authorities, delete certificate authorities, and purge.')
+param certificatesPermissions array = [
+  'all'
+]
+
 @description('Specifies whether the key vault is a standard vault or a premium vault.')
 @allowed([
   'standard'
@@ -60,6 +65,7 @@ resource kv 'Microsoft.KeyVault/vaults@2021-11-01-preview' = {
         permissions: {
           keys: keysPermissions
           secrets: secretsPermissions
+          certificates: certificatesPermissions
         }
       }
     ]
