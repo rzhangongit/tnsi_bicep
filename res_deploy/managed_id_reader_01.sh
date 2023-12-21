@@ -1,4 +1,4 @@
-# this template is to create a managed user-assigned identity with Reader role permissions assigned.
+# this template is to create a managed user-assigned identity with Reader role permissions assigned. And this principal is granted to the subscription.
 # template example: https://github.com/Azure/azure-quickstart-templates/tree/master/modules/Microsoft.ManagedIdentity/user-assigned-identity-role-assignment/1.0
 # the parameters file uses a Azure built-in Reader role 
 

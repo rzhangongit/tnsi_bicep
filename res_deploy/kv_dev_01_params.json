@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "keyVaultName": {
+        "value": "kv-tnsi-eastus-dev-01"
+      },
+      "objectId": {
+        "value": "f0487629-240a-4424-aca4-96198faf3555"
+      },
+      "secretName": {
+        "value": "tnsi-win-vm-password"
+      },
+      "secretValue": {
+        "value": "Px!3CrHTPFCR64r"
+      }
+    }
+  }
