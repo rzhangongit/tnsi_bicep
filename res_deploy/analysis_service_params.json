@@ -1,0 +1,12 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "projectAlias": {
+            "value": "tnsieastusdev"
+        },
+        "storageAccountContainerSAStoken": {
+            "value": "https://statnsidev01.blob.core.windows.net/stc-tnsi-eastus-dev-01?sp=rwl&st=2023-12-29T21:37:20Z&se=2023-12-30T05:37:20Z&spr=https&sv=2022-11-02&sr=c&sig=14a25FiZ90qB1M316acyov9a4I4DuoX7YvfPlXxZ4Tc%3D"            
+        }
+    }
+}
