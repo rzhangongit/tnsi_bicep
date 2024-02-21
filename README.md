@@ -1,3 +1,4 @@
+# Using github.com as repository
 # Project repository name: tnsi_bicep
 # Project purpose: evaluating Bicep
 
